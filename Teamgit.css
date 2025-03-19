@@ -1,9 +1,53 @@
+body{
+    font-family: system-ui, sans-serif;
+    color: black;
+    margin: 0;
+
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: grey;
+    /* color: white; */
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card{
+    width: 200px;
+    /* height: 200px; */
+    background-color: #666;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
     
 }
+
 footer {
   background-color: #f0f0f0; 
   padding: 20px;
@@ -53,3 +97,32 @@ footer {
 .contact-form br {
     display: none;
 }
+
+.banner2{
+    justify-items: center;
+    padding: 20px;
+}
+#space{
+    display: flex;
+    font-family:initial;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px ;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+.Safari-landing-page {
+    padding: 0px 270px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .Safari-landing-page h1 {
+    text-align: center;
+}
+
