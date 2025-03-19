@@ -4,6 +4,20 @@ nav{
     gap: 10px;
     
 }
+.card{
+    width: 200px;
+    /* height: 200px; */
+    background-color: #666;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+}
 
 .Safari-landing-page {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -19,4 +33,3 @@ nav{
     color: #00ffff;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
-  
