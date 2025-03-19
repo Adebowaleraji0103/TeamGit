@@ -19,6 +19,29 @@ nav{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    
+}
+.banner2{
+    justify-items: center;
+    padding: 20px;
+}
+#space{
+    display: flex;
+    font-family:initial;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px ;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
 .Safari-landing-page {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -33,3 +56,4 @@ nav{
     color: #00ffff;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
+
