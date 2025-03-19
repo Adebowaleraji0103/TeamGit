@@ -47,6 +47,57 @@ a{
     text-decoration: none;
     
 }
+
+footer {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto; 
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form .btn {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form .btn:hover{
+    background-color: #367c39;
+}
+
+.contact-form br {
+    display: none;
+}
+
 .banner2{
     justify-items: center;
     padding: 20px;
@@ -67,16 +118,11 @@ a{
 
 
 .Safari-landing-page {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-   
     padding: 0px 270px;
     text-align: center;
     font-size: 13px;
   }
   .Safari-landing-page h1 {
     text-align: center;
-   
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
+}
 
