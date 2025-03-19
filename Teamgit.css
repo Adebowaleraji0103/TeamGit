@@ -1,9 +1,33 @@
+body{
+    font-family: system-ui, sans-serif;
+    color: black;
+    margin: 0;
+
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 10px;
-    
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: grey;
+    /* color: white; */
 }
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .card{
     width: 200px;
     /* height: 200px; */
