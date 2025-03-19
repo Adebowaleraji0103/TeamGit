@@ -69,15 +69,14 @@ a{
 .Safari-landing-page {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: rgb(182, 197, 230);
-    background-color: rgb(17, 16, 16);
+   
     padding: 0px 270px;
     text-align: center;
     font-size: 13px;
   }
   .Safari-landing-page h1 {
     text-align: center;
-    color: #00ffff;
+   
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
